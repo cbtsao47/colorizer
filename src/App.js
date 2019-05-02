@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Palete from "./components/Palete";
+import Palette from "./components/Palette";
 import colors from "./dummyData";
 function App() {
   return (
     <div>
-      <Palete palette={colors[4]} />
+      <Palette {...colors[4]} />
     </div>
   );
 }
